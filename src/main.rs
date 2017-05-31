@@ -5,6 +5,9 @@ use std::char;
 use ncurses::*;
 use rand::Rng;
 
+// std::time::Instant for measuring
+
+// This returns a number matching a UTF-8 keyboard character
 fn random_char_num() -> i32 {
     rand::thread_rng().gen_range(33, 127)
 }
