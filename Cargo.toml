@@ -1,0 +1,8 @@
+[package]
+name = "typo"
+version = "0.1.0"
+authors = ["dcorrigan <df.corrigan@gmail.com>"]
+
+[dependencies]
+ncurses = "5.85.0"
+rand="0.3.0"
